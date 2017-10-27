@@ -1,0 +1,222 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+}
+.box{
+    width:90%;
+    margin:0 auto;
+    position:relative;
+}
+.top{
+    height:50px;
+    background-color: #FFF;
+    vertical-align:middle;
+}
+.top .logoBox{
+    float:left;
+    padding:14px 20px 14px 12px;
+}
+.top .leftBox{
+    float:left;
+    padding:18px 28px 12px 20px;
+    position:relative;
+}
+#menu1:hover{
+    background-color: rgb(242,242,242);
+}
+#menu1:hover>#menu1_window{
+    display:block;
+}
+#menu1_window{
+    display:none;
+    position:absolute;
+    top:49px;
+    left:0px;
+    background-color: rgb(242,242,242);
+    width:350px;
+    z-index: 100;
+}
+#menu2:hover{
+    background-color: rgb(242,242,242);
+}
+#menu2:hover>#menu2_window{
+    display:block;
+}
+#menu2_window{
+    display:none;
+    position:absolute;
+    top:49px;
+    left:0px;
+    background-color: rgb(242,242,242);
+    width:350px;
+    z-index: 100;
+}
+.top .windowBox{
+    width:332px;
+    height:50px;
+    line-height:50px;
+    padding-left:18px;
+}
+.top .windowBox:hover{
+    background-color:rgb(230,230,230);
+}
+.top .windowBox:hover>.sonWindowBox{
+    display:block;
+    background-color:rgb(230, 230, 230);
+}
+.top .windowBox:hover>.sonWindowBox>.windowBox:hover{
+    background-color:rgb(210, 210, 210);
+}
+.sonWindowBox{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:350px;
+    background-color: rgb(242,242,242);
+    width:350px;
+    z-index: 100;
+}
+.top .logo{
+    width:108px;
+    height:22px;
+}
+.top .searchBox{
+    float:right;
+    margin:11px 0 1px 0;
+    width:264px;
+    height:38px;
+}
+.top .searchBox>.search{
+    border:1px solid #707070;
+    padding:0 28px 0 10px;
+    width:262px;
+    height:36px;
+}
+.top .cartBox{
+    float:right;
+    padding:20px 12px 20px 12px;
+}
+.top .logInBox{
+    float:right;
+    padding:20px 12px 20px 12px;
+}
+.middle{
+    width:100%;
+}
+.middle .pictureBig{
+    width:100%;
+    height:600px;
+}
+.middle .pictureSmall{
+    width:100%;
+    height:200px;
+}
+.middle .pictureMin{
+    width:32px;
+    height:32px;
+}
+.middle .adsBox{
+    width:90%;
+    margin:25px auto;
+}
+.middle .adsBox .oneInFour{
+    display:inline-block;
+    vertical-align:top;
+    width:23%;
+    height:300px;
+    padding:10px 10px 10px 10px;
+    line-height:1.5;
+}
+.middle .adsBox .oneInFour .strong{
+    font-weight:bold;
+    font-size:25px;
+}
+.middle .adsBox .oneInFour .blue{
+    color:rgb(0,103,184);
+}
+.middle .adsBox .oneInFour .blue:hover{
+    color:rgb(0,103,184);
+}
+.middle .pictureBox{
+    width:100%;
+}
+.middle .linkBox{
+    height:36px;
+    margin:40px 0;
+}
+.middle .linkBox>span{
+    line-height:36px;
+    color:grey;
+}
+.middle .wordsOne{
+    width:30%;
+    height:0;
+    position: relative;
+    left:100px;
+    bottom:400px;
+}
+.middle .wordsOne>.btn{
+    display:inline-block;
+    background-color: black;
+    width:80px;
+    height:20px;
+    padding:10px 22px 7px 24px;
+}.middle .wordsTwo{
+    color:white;
+    width:30%;
+    height:0;
+    position: relative;
+    left:100px;
+    bottom:400px;
+}
+.middle .wordsTwo>.btn{
+    display:inline-block;
+    background-color: white;
+    width:80px;
+    height:20px;
+    padding:10px 22px 7px 24px;
+}
+.bottom{
+    background-color:rgb(242,242,242);
+}
+.bottom ul>li{
+    display:inline-block;
+    width:15%;
+    padding:20px 20px 0 0;
+    vertical-align:top;
+    line-height: 2;
+    font-size:10px;
+}
+.bottom ul>li>a{
+    color:grey;
+}
+.bottom ul>li>h4{
+    color:grey;
+}
+.left>a{
+    text-align:left;
+    color:grey;
+    font-size:10px;
+}
+.right>a{
+    text-align:right;
+    color:grey;
+    font-size:10px;
+    margin-right:50px;
+}
+.left{
+    position:absolute;
+    bottom:10px;
+}
+.right{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
